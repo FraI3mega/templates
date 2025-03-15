@@ -1,7 +1,7 @@
 {
-  outputs = { self }: {
+  outputs = {self}: {
     templates = {
-     rusttemplate = {
+      rust = {
         path = ./rust;
         description = "Rust dev template";
       };
